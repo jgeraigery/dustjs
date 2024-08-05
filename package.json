@@ -44,15 +44,15 @@
   },
   "devDependencies": {
     "ayepromise": "~1.1.1",
-    "grunt": "~1.4.1",
+    "grunt": "~1.6.0",
     "grunt-bump": "~0.8.0",
-    "grunt-cli": "~1.4.3",
+    "grunt-cli": "~1.5.0",
     "grunt-contrib-clean": "~2.0.0",
     "grunt-contrib-concat": "~1.0.1",
     "grunt-contrib-connect": "~3.0.0",
     "grunt-contrib-copy": "~1.0.0",
     "grunt-contrib-jasmine": "~1.2.0",
-    "grunt-contrib-jshint": "~3.0.0",
+    "grunt-contrib-jshint": "~3.2.0",
     "grunt-contrib-uglify": "~1.0.1",
     "grunt-contrib-watch": "~1.1.0",
     "grunt-execute": "~0.2.2",
@@ -66,7 +66,7 @@
     "pegjs": "0.9.0",
     "rhino-1_7r3-bin": "~1.0.1",
     "rhino-1_7r5-bin": "~1.0.1",
-    "tmp": "~0.0.25"
+    "tmp": "~0.2.0"
   },
   "license": "MIT",
   "engine": {
