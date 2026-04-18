@@ -39,7 +39,7 @@
     "linkedin"
   ],
   "dependencies": {
-    "chokidar": "^3.5.2",
+    "chokidar": "^5.0.0",
     "cli": "^1.0.1"
   },
   "devDependencies": {
