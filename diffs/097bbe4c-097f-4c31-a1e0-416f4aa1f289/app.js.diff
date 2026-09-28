@@ -28,13 +28,12 @@
  app.get('/', function (req, res) {
    dust.render('index', {}, function(err, out) {
      res.send(out);
--  });
-+console.log('\n\nBeginning the render of', req.path.replace(/[^a-zA-Z0-9 _-]/g, ''));
-+
+   });
  });
  
  app.use(function(req, res, next) {
-   console.log('\n\nBeginning the render of', req.path);
+-  console.log('\n\nBeginning the render of', req.path);
++  console.log('\n\nBeginning the render of', req.path.replace(/[^a-zA-Z0-9 _-]/g, ''));
    console.log('Read hello.dust to see the block names and the order in which they appear.');
    position = 1;
    next();
